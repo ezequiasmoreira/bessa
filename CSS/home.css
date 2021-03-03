@@ -1,0 +1,283 @@
+	body{
+		margin: 0;
+		padding: 0;
+		background-color: #EBF7FA;
+	}	
+	.corpo{
+		width: 1024px;
+		margin: 0 auto;
+	}
+	
+	.topo img{
+		height: 89px;
+		width: 838px;	
+		padding: 10px 0px 10px 0px;	
+		display: block;
+		margin-left: left;
+		margin-right: auto;
+	}
+	
+	.menu{
+		background-color: #FFFFFF;
+		height: 40px;
+		width: 1024px;
+		position: absolute;
+		border: 8px solid #003366;
+	}
+	.conteudo{
+		font-family: Arial;
+		font-size: 14px;
+		width: 1024px;
+		height:1000px;
+		border: 8px solid #003366;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		background-color: #FFFFFF;
+		color: #003366;		
+	}
+	
+	.gira {
+    position: absolute;
+    top: 205%;
+    left: 54%;
+    width: 115px;
+    height: 115px;
+    margin:-150px 0 0 -120px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+ }
+ .BV {
+    position: fixed;
+    top: 206%;
+    left: 55%;
+   /* width: 426px;
+    height: 66px;*/
+    margin:-150px 0 0 -120px;
+   
+}
+
+	.quemsomos{
+		width: 600px;
+	}
+	.rodape{
+		background-color: #FFFFFF;
+		width: 1024px;
+		height: 100px;
+		border: 8px solid #003366;
+		/*margin-top: 595px;*/
+		/*margin-left: -8px;*/
+	}
+	/* ----------- INICIO MENU ----------- */	
+	.ulmenu{
+		position: absolute;
+		margin-left: 125px;
+		margin-top: 0px;
+		height: 30px;
+	}
+	.limenu{
+		display: inline;
+	}
+	
+	/* ----------- ESTILO MENU ----------- */
+	
+	.limenu a{
+		text-decoration: none;
+		color: #003366;
+		font-family: Arial;
+		font-size: 14px;
+		background-color: #FFFFFF;
+		font-weight: bold;
+		float: left;
+		display: block;
+		padding: 13px 20px;
+		height: 14px;
+		text-align: center;
+	}
+	.limenu a:hover{
+		background-color: #003366;
+		color: #FFFFFF;
+		height: 14px;
+	}
+	/* ----------- FIM MENU ----------- */	
+	
+	
+	
+	/*logistica*/
+	.lg div,img{
+		overflow: hidden;
+	}
+	.lg {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+        background-color: #EBF7FA ;		
+	}
+	
+	}
+	.lg  logistica{
+		
+		width: 500px;
+		height: 100px;
+        padding-top: 95px;
+        text-align: center;		
+	}
+	/*neilar*/
+	.ne div,img{
+		overflow: hidden;
+	}
+	
+	.ne {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+        background-color: #EBF7FA ;	
+		/*margin-left: 25px;*/
+	}
+	
+	
+	.ne  neilar{
+		
+		width: 500px;
+		height: 100px;
+        padding-top: 95px;
+        text-align: center;		
+	}
+	/*serra*/
+	.se div,img{
+		overflow: hidden;
+	}
+	
+	.se {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+		background-color: #EBF7FA ;
+	
+		
+	}
+	
+	
+	.se  serra{
+		
+		width: 500px;
+		height: 1000px;
+        padding-top: 95px;
+        text-align: center;		
+	}
+	
+	/*baschiroto*/
+	.ba div,img{
+		overflow: hidden;
+		
+	}
+	
+	.ba {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+		background-color: #EBF7FA ;
+		
+	}
+	
+	/*chelli*/
+	.che div,img{
+		overflow: hidden;
+		
+	}
+	
+	.che {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+		background-color: #EBF7FA ;
+		
+	}
+	
+	
+	.che  chelli{
+		
+		width: 500px;
+		height: 100px;
+        padding-top: -95px;
+        text-align: center;		
+	}
+	
+	/*yoki*/
+	.yo div,img{
+		overflow: hidden;
+		
+	}
+	
+	.yo {
+		width: 270px;
+		height: 55px;
+		border: 5px solid #003366;
+		overflow: hidden;
+		position: relative;
+		float: left;
+		margin:50px 20px 0 20px;
+		background-color: #EBF7FA ;
+		
+	}
+	
+	
+	.yo  yoki{
+		
+		width: 500px;
+		height: 100px;
+        padding-top: -95px;
+        text-align: center;		
+	}
+	
+	/* ----------- INICIO RODAPÉ ----------- */
+	
+	.rodape p{
+		font-family: Arial;
+		float: left;
+		text-align: center;
+		color: #003366;
+		padding-top: 5px;
+		/*margin-top: 110px;*/
+	}
+	
+	.horario{
+		margin-left: 430px;
+		width: 300px;
+		font-size: 19px;
+		font-weight: bold;
+		margin-top: 25px;
+	}
+	
+	
+		
+
+	/* ----------- FIM RODAPE ----------- */
+	
+	
+	
+	
